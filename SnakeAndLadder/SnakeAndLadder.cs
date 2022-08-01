@@ -37,6 +37,10 @@ namespace SnakeAndLadder
                     Console.WriteLine("Invalid Option");  
                     break;
             }
+            if (StartPoint < 0) 
+            {
+                StartPoint = 0;
+            }
         }
     }
 }
